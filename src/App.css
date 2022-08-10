@@ -1,38 +1,111 @@
-.App {
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,.services,.tinting,.contact,.wrapping,.branding,.buycar
+{
+ display: flex;
+ height: 90vh;
+ align-items: center;
+ justify-content: center;
+ font-size: 3rem;
+}
+
+/* .home {
+  background-image: url('./images/carhome.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
+
+
+.services {
+  background-image: url('./images/carimg2.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.tinting{
+  background-image: url('./images/cartint2.jpg');
+  background-position: center;
+  background-size:auto;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact{
+  background-image: url('./images/contact.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
+  font-size: 100px;
+}
+
+
+
+.wrapping {
+  background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),url('images/cardwrap.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
+  font-size: 100px;
+}
+.branding {
+  background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),url('./images/carbrand.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.buycar {
+  background-image: url('./images/carbuy.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
+  font-size: 100px;
+}
+.wrapping-style{
+  background-color: #fff;
+  padding: 4rem;
+}
+.wrapping.h1{
   text-align: center;
+  font-size: 60px;
+}
+.wrapping-title{
+  
+  text-align: center;
+  font-size: 60px;
+}
+.tinting-title{
+  text-align: left;
+  font-size:50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapping-p{
+  text-align: center;
+  font-size: 30px;
+
+  color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapping-ul{
+  font-size: 25px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buyacar-p{
+  font-size: 25px;
 }

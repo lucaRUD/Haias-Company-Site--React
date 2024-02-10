@@ -3,7 +3,7 @@ import '../../App.css';
 export default function Wrapping() {
   return (
     <>
-      <h1 className='wrapping'>Wrapping</h1>
+      <h1 className='wrapping'>WRAPPING</h1>
       <div className='wrapping-style' >
         <h1 className='wrapping-title'>Car Wrapping</h1>
         <br />

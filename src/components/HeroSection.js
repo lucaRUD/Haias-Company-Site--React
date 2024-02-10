@@ -5,7 +5,7 @@ function HeroSection(){
   return (
     <div className='hero-container'>
     <video src="/videos/cartune.mp4" autoPlay loop muted />
-    <h1>Haias Company</h1>
+    <h1>HAIAS COMPANY</h1>
     <p>Only the highest quality.</p>
     </div>
   )

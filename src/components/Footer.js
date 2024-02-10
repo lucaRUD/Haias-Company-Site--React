@@ -57,7 +57,7 @@ function Footer() {
               <i class='fab fa-firstdraft' />
             </Link>
           </div>
-          <small class='website-rights'>HAIAS COMPANY © 2020</small>
+          <small class='website-rights'>HAIAS COMPANY © 2024</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

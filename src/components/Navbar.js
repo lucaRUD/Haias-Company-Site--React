@@ -29,7 +29,7 @@ function Navbar() {
     return (
       <>
       <nav className='navbar'>
-     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+     <Link to='/Haias-Company-Site--React/' className='navbar-logo' onClick={closeMobileMenu}>
        Haias Company
        <i class='fab fa-firstdraft' />
      </Link>
@@ -38,7 +38,7 @@ function Navbar() {
      </div>
      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
        <li className='nav-item'>
-         <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+         <Link to='/Haias-Company-Site--React/' className='nav-links' onClick={closeMobileMenu}>
            Home
          </Link>
        </li>
@@ -47,13 +47,13 @@ function Navbar() {
          onMouseEnter={onMouseEnter}
          onMouseLeave={onMouseLeave}
        >
-              <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/Haias-Company-Site--React/services' className='nav-links' onClick={closeMobileMenu}>
               Services <i className='fas fa-caret-down' />
               </Link>
               {dropdown && <Dropdown/>}
             </li>
             <li className='nav-item'>
-              <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/Haias-Company-Site--React/contact' className='nav-links' onClick={closeMobileMenu}>
               Contact
               </Link>
             </li>

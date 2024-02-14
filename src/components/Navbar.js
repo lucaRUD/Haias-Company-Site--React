@@ -47,13 +47,13 @@ function Navbar() {
          onMouseEnter={onMouseEnter}
          onMouseLeave={onMouseLeave}
        >
-              <Link to='/Haias-Company-Site--React/services' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
               Services <i className='fas fa-caret-down' />
               </Link>
               {dropdown && <Dropdown/>}
             </li>
             <li className='nav-item'>
-              <Link to='/Haias-Company-Site--React/contact' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
               Contact
               </Link>
             </li>

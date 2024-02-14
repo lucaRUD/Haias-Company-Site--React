@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Haias-Company-Site--React/static/css/main.f1df42ec.css",
+    "main.css": "/Haias-Company-Site--React/static/css/main.c81436db.css",
     "main.js": "/Haias-Company-Site--React/static/js/main.ed67bc50.js",
     "static/media/carimg2.png": "/Haias-Company-Site--React/static/media/carimg2.cfffd6811fa00a4b8bc2.png",
     "static/media/cardwrap.jpg": "/Haias-Company-Site--React/static/media/cardwrap.3876333b3504ab66ab08.jpg",
@@ -9,11 +9,11 @@
     "static/media/carbrand.jpg": "/Haias-Company-Site--React/static/media/carbrand.15852eb85b90b66466ec.jpg",
     "static/media/cartint2.jpg": "/Haias-Company-Site--React/static/media/cartint2.209826125442d5bfa9a7.jpg",
     "index.html": "/Haias-Company-Site--React/index.html",
-    "main.f1df42ec.css.map": "/Haias-Company-Site--React/static/css/main.f1df42ec.css.map",
+    "main.c81436db.css.map": "/Haias-Company-Site--React/static/css/main.c81436db.css.map",
     "main.ed67bc50.js.map": "/Haias-Company-Site--React/static/js/main.ed67bc50.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1df42ec.css",
+    "static/css/main.c81436db.css",
     "static/js/main.ed67bc50.js"
   ]
 }
